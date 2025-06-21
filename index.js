@@ -43,7 +43,6 @@ function onGetSavedNotes() {
 
 function getUserReadableDate(date) {
     let readableDate=new Date(date);
-   // 11 NOv 2019 2:30
     return readableDate.getDate()+' '+eng_month[readableDate.getMonth()]
     +' '+readableDate.getFullYear()+' '+readableDate.getHours()+':'
     +readableDate.getMinutes();
